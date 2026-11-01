@@ -1,0 +1,12 @@
+# Raw downloads and caches (House PDFs, Senate pages, prices). Never commit these:
+# the Ethics in Government Act limits redistribution of the disclosure reports.
+data_congress/
+*.parquet
+*.pdf
+# Notebook and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
